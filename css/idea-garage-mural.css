@@ -1,0 +1,211 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Base
+- Layout
+- Module
+- State
+- Theme
+*/
+
+
+/* BASE
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+/* BASIC STYLES */
+
+
+/* FONTS & TYPOGRAPHY */
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 50px;
+    background-color: black;
+}
+
+.vertical-padding {
+  padding-top: 2em;
+}
+
+.border-box {
+  border: 1px solid white;
+  padding: 2em;
+  color: white !important;
+}
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .participants-section-title {
+      color: #06B4D9 !important;
+    }
+
+    .experience-section-title {
+      color: #3CB09B !important;
+    }
+
+    .spark-section-title {
+      color: #F1C22D !important;
+    }
+
+    .idea-section-title {
+      color: #ED3A3A !important;
+    }
+
+    .proposition-section-title {
+      color: #BF1A90 !important;
+    }
+
+    .proposal-section-title {
+      color: #640071 !important;
+    }
+
+     .buyer-section-title {
+      color: #05348C !important;
+    }
+
+     .engage-section-title {
+      color: #1670B8 !important;
+    }
+
+    .uppercase {
+      text-transform: uppercase;
+    }
+
+    .no-padding {
+      padding: 0px;
+    }
+
+    .mural-menu {
+      top:50px;
+      background-color: black;
+      color: white;
+      padding: 1em;
+      position: fixed;
+      transform: translateX(-100%);
+      z-index:1000;
+    }
+
+    ul.mural-menu {
+      list-style-type: none;
+    }
+
+    ul.mural-menu li {
+      color: white;
+      padding-top:1em;
+    }
+
+
+.reveal a {
+    color: white;
+    text-decoration: underline;
+    -webkit-transition: color .15s ease;
+    -moz-transition: color .15s ease;
+    transition: color .15s ease;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.card {
+  background-color: white;
+  padding: 1em;
+  margin: 0em .25em .25em .25em;
+  border: 1px solid #ececec;
+  height: 8em;
+}
+
+.blue-card {
+  background-color: #06B5D9;
+  color: white !important;
+  margin-left: .43em !important;
+  margin-right: .43em !important;
+  margin-bottom: 0px !important;
+  padding: .25em !important;
+  font-size: .6em !important;
+}
+
+/* TYPOGRAPHY */
+
+.subtitle {
+  font-size: .6em !important;
+}
+
+/* IMAGES */
+
+.height150 {
+  transform: scale(1.3);
+}
+
+/*NAV */
+#menu-button {
+  position: fixed;
+  z-index: 10000;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.mural-menu {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  padding-top: 125px;
+  padding-left: 1.5em;
+  position: fixed;
+  top: -50px;
+  transform: translateX(-100%);
+  z-index:1000;
+  transition: 0.5s;
+}
+
+.menu-visible {
+  transform: translateX(0%);
+  transition: 0.5s;
+}
+
+
+.mural-menu ul {
+  list-style-type: none;
+  padding-right: 100px;
+}
+
+.mural-menu ul li {
+  color: white;
+  padding-top:1em;
+}
